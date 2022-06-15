@@ -21,6 +21,8 @@ public class VerifyUserCanAddFundToAccount {
 	Login_Page lp;
 	Home_Page hp;
 	
+	int c=80;
+	
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String bName)
